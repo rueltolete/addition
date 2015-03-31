@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0" />
+  <title>Multiplication</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script src="jquery/jquery.js"></script>
+  <script src="javascript/multiplication.js"></script>
+</head>
+<body onLoad="myFunction()">
+
+  <table class="center">
+    <tr>
+      <td colspan=2><p class="question" id="myQuestion">&nbsp;</p>
+    </tr>
+    <tr>
+      <td><div><p class="options" id="option1">&nbsp;</p></div>
+      <td><div><p class="options" id="option2">&nbsp;</p></div>
+    </tr>
+    <tr>
+      <td><div><p class="options" id="option3">&nbsp;</p></div>
+      <td><div><p class="options" id="option4">&nbsp;</p></div>
+    </tr>
+    <tr>
+      <td><p class="result" id="myResult">&nbsp;</p>
+      <td>
+        <table>
+          <tr>
+            <td><p class="result" id="myScore" style="color:blue">C:0</p>
+            <td><p class="result" id="myWrong" style="color:red">W:0</p>
+            <td><p class="result" id="myQuestionID" style="color:green">Q:0</p>
+          </tr>
+        </table>
+    </tr>
+    <tr>
+      <td><p><a href="index.htm" class="btn">Main Menu</a></p>
+      <td>
+
+        <table>
+          <tr>
+            <td colspan=2>Multiplication:
+          </tr>
+          <tr>
+            <td><meter id="meteradd" title="meteradd" min="0" max="100" value="0" width="25px"></meter>
+            <td><p class="meterscore" id="myMeterScore">&nbsp;</p>
+          </tr>
+        </table>
+
+    </tr>
+  </table>
+
+</body>
+</html>
